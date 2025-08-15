@@ -10,14 +10,30 @@ task.svg() {
 	local ecosystem_color='#e5dbff'
 	local platform_color='#ffe8cc'
 
-	inkscape -w 512 -h 512 -o ./assets/package-sized.png ./assets/package-sized.svg
-	for type in decoration ecosystem platform; do
-		for dir in ./"$type"-packs/*; do
-			local color_var="${type}_color"
-			local -n color="$color_var"
-			mkdir -p "$dir/assets"
-			convert ./assets/package-sized.png -background "$color" -flatten -alpha off "$dir/assets/icon.png"
-		done
+	magick convert ./assets/package.png -resize 512x512 ./assets/package-512px.png
+	inkscape -w 512 -h 512 -o ./assets/package-512px.png ./assets/package.svg
+	for dir in ./pack-{ecosystem,platform}-!(all|other)/; do
+		dir=${dir%/}
+		local icon_name=${dir##*-}
+		local type=${dir#./pack-}; type=${type%-*}
+		local color_var="${type}_color"
+		local -n color="$color_var"
+		mkdir -p "$dir/assets"
+		magick convert ./assets/package-512px.png -background "$color" -flatten -alpha off ./temp.png
+		if [ ! -f "./assets/$icon_name.png" ]; then
+			if [ -f "./assets/$icon_name.svg" ]; then
+				inkscape -w 512 -o "./assets/$icon_name.png" "./assets/$icon_name.svg"
+			elif [ -f "./assets/$icon_name.jpg" ]; then
+				inkscape -w 512 -o "./assets/$icon_name.png" "./assets/$icon_name.jpg"
+			fi
+		fi
+		resize=x200
+		[ "$icon_name" = 'php' ] && resize=x150
+		[ "$icon_name" = 'go' ] && resize=x125
+		[ "$icon_name" = 'java' ] && resize=x300
+		[ "$icon_name" = 'cpp' ] && resize=x225
+		magick ./temp.png \( "./assets/$icon_name.png" -resize "$resize" -geometry +8+8 \) -gravity southeast -composite "$dir/assets/icon.png"
+		rm ./temp.png
 	done
 }
 
