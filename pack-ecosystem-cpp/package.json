@@ -2,7 +2,7 @@
 	"name": "vscode-hyperupcall-pack-cpp",
 	"displayName": "Edwin's Pack: C++",
 	"description": "Extensions for C++",
-	"version": "0.6.0",
+	"version": "0.6.1",
 	"publisher": "EdwinKofler",
 	"icon": "assets/icon.png",
 	"license": "MPL-2.0",
@@ -43,4 +43,3 @@
 		"jeff-hykin.better-cpp-syntax"
 	]
 }
-
