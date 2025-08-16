@@ -40,7 +40,6 @@
 		"jeff-hykin.better-go-syntax",
 		"jeff-hykin.better-csv-syntax",
 		"jeff-hykin.better-shellscript-syntax",
-		"magicstack.MagicPython",
 		"dtsvet.vscode-wasm",
 		"idleberg.applescript",
 		"syler.sass-indented",
@@ -48,3 +47,4 @@
 		"EdwinKofler.vscode-assorted-languages"
 	]
 }
+

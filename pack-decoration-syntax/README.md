@@ -14,7 +14,6 @@ Includes:
 - [jeff-hykin.better-go-syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-go-syntax)
 - [jeff-hykin.better-csv-syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-csv-syntax)
 - [jeff-hykin.better-shellscript-syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-shellscript-syntax)
-- [magicstack.MagicPython](https://marketplace.visualstudio.com/items?itemName=magicstack.MagicPython)
 - [dtsvet.vscode-wasm](https://marketplace.visualstudio.com/items?itemName=dtsvet.vscode-wasm)
 - [idleberg.applescript](https://marketplace.visualstudio.com/items?itemName=idleberg.applescript)
 - [syler.sass-indented](https://marketplace.visualstudio.com/items?itemName=syler.sass-indented)
