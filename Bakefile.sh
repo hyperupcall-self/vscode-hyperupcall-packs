@@ -60,7 +60,10 @@ task.publish() {
 	npm version --no-commit-hooks --no-git-tag-version "${version#v}"
 	git add ./package.json
 	GIT_COMMITTER_NAME='Otternaut' GIT_COMMITTER_EMAIL='99463792+otternaut-bot@users.noreply.github.com' \
-		git commit -m "${pack_dir#./} $version" --author 'Otternaut <99463792+otternaut-bot@users.noreply.github.com>'
+		git commit --author 'Otternaut <99463792+otternaut-bot@users.noreply.github.com>' -m "${pack_dir#./} $version"
+	git add ../extension-list.json
+	GIT_COMMITTER_NAME='Otternaut' GIT_COMMITTER_EMAIL='99463792+otternaut-bot@users.noreply.github.com' \
+		git commit  --author 'Otternaut <99463792+otternaut-bot@users.noreply.github.com>' commit --amend --no-edit --no-verify
 	vsce publish
 	ovsx publish --pat "$(<'../.ovsx-token')"
 }
