@@ -41,9 +41,26 @@ task.generate-assets() {
 }
 
 task.publish() {
-	local pack=$1
-	cd "$pack"
+	local pack_dir=$1
+	pack_dir=${pack_dir%/}
 
+	if [ ! -d "$pack_dir" ]; then
+		bake.die "Path \"$pack_dir\" not a directory"
+	fi
+
+	local latest_version_commit=$(git log --pretty=format:"%H" --grep '^pack-.*-.* v[0-9]\+\.[0-9]\+\.[0-9]\+' -- "$pack_dir" | head -1)
+	bake.info "Newest commits for \"$pack_dir\""
+	git -P log --oneline c0f7f0c4db61de6f4e3e1e1793a5f705e129d16a~..HEAD -- "$pack_dir"
+	read -rp 'New Version? ' -ei 'v'
+	local version=$REPLY
+	if [[ -z "$version" || $version = 'v' ]]; then
+		bake.die "Empty input"
+	fi
+	cd "$pack_dir"
+	npm version --no-commit-hooks --no-git-tag-version "${version#v}"
+	git add ./package.json
+	GIT_COMMITTER_NAME='Otternaut' GIT_COMMITTER_EMAIL='99463792+otternaut-bot@users.noreply.github.com' \
+		git commit -m "${pack_dir#./} $version" --author 'Otternaut <99463792+otternaut-bot@users.noreply.github.com>'
 	vsce publish
 	ovsx publish --pat "$(<'../.ovsx-token')"
 }
