@@ -2,7 +2,7 @@
 	"name": "vscode-hyperupcall-pack-unix",
 	"displayName": "Edwin's Pack: *nix",
 	"description": "Extensions for *nix",
-	"version": "0.4.3",
+	"version": "0.4.4",
 	"publisher": "EdwinKofler",
 	"icon": "assets/icon.png",
 	"license": "MPL-2.0",
@@ -20,7 +20,10 @@
 	"engines": {
 		"vscode": "^1.58.0"
 	},
-	"files": ["LICENSE", "assets/icon.png"],
+	"files": [
+		"LICENSE",
+		"assets/icon.png"
+	],
 	"categories": [
 		"Extension Packs"
 	],
