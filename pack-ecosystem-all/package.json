@@ -2,7 +2,7 @@
 	"name": "vscode-hyperupcall-pack-all",
 	"displayName": "Edwin's Pack: All",
 	"description": "Extensions for All",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"publisher": "EdwinKofler",
 	"icon": "assets/icon.png",
 	"license": "MPL-2.0",
@@ -20,7 +20,10 @@
 	"engines": {
 		"vscode": "^1.58.0"
 	},
-	"files": ["LICENSE", "assets/icon.png"],
+	"files": [
+		"LICENSE",
+		"assets/icon.png"
+	],
 	"categories": [
 		"Extension Packs"
 	],
