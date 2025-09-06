@@ -165,7 +165,7 @@
 			"name": "vscode-hyperupcall-pack-product-icons",
 			"displayName": "Edwin's Pack: Product Icon",
 			"description": "Extensions that add a product icon theme",
-			"version": "0.3.6",
+			"version": "0.3.7",
 			"publisher": "EdwinKofler",
 			"icon": "assets/icon.png",
 			"license": "MPL-2.0",
