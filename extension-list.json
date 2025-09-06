@@ -830,7 +830,7 @@
 			"name": "vscode-hyperupcall-pack-rust",
 			"displayName": "Edwin's Pack: Rust",
 			"description": "Extensions for Rust",
-			"version": "0.4.1",
+			"version": "0.4.2",
 			"publisher": "EdwinKofler",
 			"icon": "assets/icon.png",
 			"license": "MPL-2.0",
