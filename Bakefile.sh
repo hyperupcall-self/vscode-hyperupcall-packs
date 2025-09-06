@@ -48,6 +48,12 @@ task.publish() {
 		bake.die "Path \"$pack_dir\" not a directory"
 	fi
 
+	local output=
+	output=$(git status --porcelain -- "$pack_dir")
+	if [ -n "$output" ]; then
+		bake.die "Uncommitted changes in directory \"$pack_dir\""
+	fi
+
 	local latest_version_commit=$(git log --pretty=format:"%H" --grep '^pack-.*-.* v[0-9]\+\.[0-9]\+\.[0-9]\+' -- "$pack_dir" | head -1)
 	bake.info "Newest commits for \"$pack_dir\""
 	git -P log --oneline c0f7f0c4db61de6f4e3e1e1793a5f705e129d16a~..HEAD -- "$pack_dir"
@@ -59,11 +65,12 @@ task.publish() {
 	cd "$pack_dir"
 	npm version --no-commit-hooks --no-git-tag-version "${version#v}"
 	git add ./package.json
-	GIT_COMMITTER_NAME='Otternaut' GIT_COMMITTER_EMAIL='99463792+otternaut-bot@users.noreply.github.com' \
+	(
+		export GIT_COMMITTER_NAME='Otternaut' GIT_COMMITTER_EMAIL='99463792+otternaut-bot@users.noreply.github.com'
 		git commit --author 'Otternaut <99463792+otternaut-bot@users.noreply.github.com>' -m "${pack_dir#./} $version"
-	git add ../extension-list.json
-	GIT_COMMITTER_NAME='Otternaut' GIT_COMMITTER_EMAIL='99463792+otternaut-bot@users.noreply.github.com' \
-		git commit  --author 'Otternaut <99463792+otternaut-bot@users.noreply.github.com>' commit --amend --no-edit --no-verify
+		git add ../extension-list.json
+		git commit  --author 'Otternaut <99463792+otternaut-bot@users.noreply.github.com>' --amend --no-edit --no-verify
+	)
 	vsce publish
 	ovsx publish --pat "$(<'../.ovsx-token')"
 }

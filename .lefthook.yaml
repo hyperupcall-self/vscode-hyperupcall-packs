@@ -1,4 +1,4 @@
-
+assert_lefthook_installed: true
 pre-commit:
   commands:
     create-extensions-list:

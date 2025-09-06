@@ -1,228 +1,17 @@
 [
 	{
-		"dirname": "pack-decoration-icons",
-		"packageJson": {
-			"name": "vscode-hyperupcall-pack-icons",
-			"displayName": "Edwin's Pack: Icon",
-			"description": "Extensions that add a file icon theme",
-			"version": "0.5.1",
-			"publisher": "EdwinKofler",
-			"icon": "assets/icon.png",
-			"license": "MPL-2.0",
-			"repository": {
-				"type": "git",
-				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
-			},
-			"bugs": {
-				"url": "https://github.com/fox-land/vscode-hyperupcall-packs/issues"
-			},
-			"author": {
-				"name": "Edwin Kofler",
-				"url": "https://edwinkofler.com"
-			},
-			"engines": {
-				"vscode": "^1.58.0"
-			},
-			"files": [
-				"LICENSE",
-				"assets/icon.png"
-			],
-			"categories": [
-				"Extension Packs"
-			],
-			"extensionPack": [
-				"file-icons.file-icons",
-				"Catppuccin.catppuccin-vsc-icons",
-				"tal7aouy.icons",
-				"BeardedBear.beardedicons",
-				"miguelsolorio.symbols"
-			]
-		}
-	},
-	{
-		"dirname": "pack-ecosystem-latex",
-		"packageJson": {
-			"name": "vscode-hyperupcall-pack-latex",
-			"displayName": "Edwin's Pack: LaTeX",
-			"description": "Extensions for LaTeX",
-			"version": "0.1.6",
-			"publisher": "EdwinKofler",
-			"icon": "assets/icon.png",
-			"license": "MPL-2.0",
-			"repository": {
-				"type": "git",
-				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
-			},
-			"bugs": {
-				"url": "https://github.com/fox-land/vscode-hyperupcall-packs/issues"
-			},
-			"author": {
-				"name": "Edwin Kofler",
-				"url": "https://edwinkofler.com"
-			},
-			"engines": {
-				"vscode": "^1.58.0"
-			},
-			"files": [
-				"LICENSE",
-				"assets/icon.png"
-			],
-			"categories": [
-				"Extension Packs"
-			],
-			"extensionPack": [
-				"tecosaur.latex-utilities",
-				"James-Yu.latex-workshop"
-			]
-		}
-	},
-	{
-		"dirname": "pack-decoration-core",
-		"packageJson": {
-			"name": "vscode-hyperupcall-pack-core",
-			"displayName": "Edwin's Pack: Core",
-			"description": "CORE EXTENSIONS for ANY VSCode experience",
-			"version": "0.5.1",
-			"publisher": "EdwinKofler",
-			"icon": "assets/icon.png",
-			"license": "MPL-2.0",
-			"repository": {
-				"type": "git",
-				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
-			},
-			"bugs": {
-				"url": "https://github.com/fox-land/vscode-hyperupcall-packs/issues"
-			},
-			"author": {
-				"name": "Edwin Kofler",
-				"url": "https://edwinkofler.com"
-			},
-			"engines": {
-				"vscode": "^1.58.0"
-			},
-			"files": [
-				"LICENSE",
-				"assets/icon.png"
-			],
-			"categories": [
-				"Extension Packs"
-			],
-			"extensionPack": [
-				"EdwinKofler.vscode-hyperupcall-pack-base",
-				"EdwinKofler.vscode-hyperupcall-pack-themes",
-				"EdwinKofler.vscode-hyperupcall-pack-icons",
-				"EdwinKofler.vscode-hyperupcall-pack-product-icons",
-				"EdwinKofler.vscode-hyperupcall-pack-syntax",
-				"EdwinKofler.vscode-hyperupcall-pack-markdown"
-			]
-		}
-	},
-	{
-		"dirname": "pack-ecosystem-php",
-		"packageJson": {
-			"name": "vscode-hyperupcall-pack-php",
-			"displayName": "Edwin's Pack: PHP",
-			"description": "Extensions for PHP",
-			"version": "0.3.6",
-			"publisher": "EdwinKofler",
-			"icon": "assets/icon.png",
-			"license": "MPL-2.0",
-			"repository": {
-				"type": "git",
-				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
-			},
-			"bugs": {
-				"url": "https://github.com/fox-land/vscode-hyperupcall-packs/issues"
-			},
-			"author": {
-				"name": "Edwin Kofler",
-				"url": "https://edwinkofler.com"
-			},
-			"engines": {
-				"vscode": "^1.58.0"
-			},
-			"files": [
-				"LICENSE",
-				"assets/icon.png"
-			],
-			"categories": [
-				"Extension Packs"
-			],
-			"extensionPack": [
-				"DEVSENSE.phptools-vscode",
-				"DEVSENSE.profiler-php-vscode"
-			]
-		}
-	},
-	{
-		"dirname": "pack-decoration-themes",
-		"packageJson": {
-			"name": "vscode-hyperupcall-pack-themes",
-			"displayName": "Edwin's Pack: Themes",
-			"description": "Extensions that add a color theme",
-			"version": "0.8.1",
-			"publisher": "EdwinKofler",
-			"icon": "assets/icon.png",
-			"license": "MPL-2.0",
-			"repository": {
-				"type": "git",
-				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
-			},
-			"bugs": {
-				"url": "https://github.com/fox-land/vscode-hyperupcall-packs/issues"
-			},
-			"author": {
-				"name": "Edwin Kofler",
-				"url": "https://edwinkofler.com"
-			},
-			"engines": {
-				"vscode": "^1.58.0"
-			},
-			"files": [
-				"LICENSE",
-				"assets/icon.png"
-			],
-			"categories": [
-				"Extension Packs"
-			],
-			"extensionPack": [
-				"teabyii.ayu",
-				"BeardedBear.beardedtheme",
-				"jdinhlife.gruvbox",
-				"liviuschera.noctis",
-				"ms-vscode.Theme-MaterialKit",
-				"ms-vscode.Theme-TomorrowKit",
-				"ms-vscode.cpptools-themes",
-				"dracula-theme.theme-dracula",
-				"Catppuccin.catppuccin-vsc",
-				"zhuangtongfa.material-theme",
-				"whizkydee.material-palenight-theme",
-				"idleberg.hopscotch",
-				"sdras.night-owl",
-				"enkia.tokyo-night",
-				"azemoh.one-monokai",
-				"ahmadawais.shades-of-purple",
-				"RobbOwen.synthwave-vscode",
-				"johnpapa.winteriscoming",
-				"uloco.theme-bluloco-light",
-				"uloco.theme-bluloco-dark",
-				"ms-vscode.Theme-1337",
-				"GitHub.github-vscode-theme",
-				"arcticicestudio.nord-visual-studio-code",
-				"tinkertrain.theme-panda"
-			]
-		}
-	},
-	{
 		"dirname": "pack-decoration-base",
 		"packageJson": {
 			"name": "vscode-hyperupcall-pack-base",
 			"displayName": "Edwin's Pack: Base",
 			"description": "Includes things like EditorConfig, Error Lens, etc.",
-			"version": "0.9.3",
+			"version": "0.9.4",
 			"publisher": "EdwinKofler",
 			"icon": "assets/icon.png",
 			"license": "MPL-2.0",
+			"config": {
+				"namePretty": "Base"
+			},
 			"repository": {
 				"type": "git",
 				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
@@ -284,15 +73,18 @@
 		}
 	},
 	{
-		"dirname": "pack-platform-unix",
+		"dirname": "pack-decoration-core",
 		"packageJson": {
-			"name": "vscode-hyperupcall-pack-unix",
-			"displayName": "Edwin's Pack: *nix",
-			"description": "Extensions for *nix",
-			"version": "0.4.5",
+			"name": "vscode-hyperupcall-pack-core",
+			"displayName": "Edwin's Pack: Core",
+			"description": "CORE EXTENSIONS for ANY VSCode experience",
+			"version": "0.5.1",
 			"publisher": "EdwinKofler",
 			"icon": "assets/icon.png",
 			"license": "MPL-2.0",
+			"config": {
+				"namePretty": "Core"
+			},
 			"repository": {
 				"type": "git",
 				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
@@ -315,26 +107,28 @@
 				"Extension Packs"
 			],
 			"extensionPack": [
-				"ms-vscode.makefile-tools",
-				"timonwong.shellcheck",
-				"mads-hartmann.bash-ide-vscode",
-				"jeff-hykin.better-shellscript-syntax",
-				"bmalehorn.vscode-fish",
-				"elves.elvish",
-				"TheNuProjectContributors.vscode-nushell-lang"
+				"EdwinKofler.vscode-hyperupcall-pack-base",
+				"EdwinKofler.vscode-hyperupcall-pack-themes",
+				"EdwinKofler.vscode-hyperupcall-pack-icons",
+				"EdwinKofler.vscode-hyperupcall-pack-product-icons",
+				"EdwinKofler.vscode-hyperupcall-pack-syntax",
+				"EdwinKofler.vscode-hyperupcall-pack-markdown"
 			]
 		}
 	},
 	{
-		"dirname": "pack-ecosystem-all",
+		"dirname": "pack-decoration-icons",
 		"packageJson": {
-			"name": "vscode-hyperupcall-pack-all",
-			"displayName": "Edwin's Pack: All",
-			"description": "Extensions for All",
-			"version": "0.1.3",
+			"name": "vscode-hyperupcall-pack-icons",
+			"displayName": "Edwin's Pack: Icon",
+			"description": "Extensions that add a file icon theme",
+			"version": "0.5.1",
 			"publisher": "EdwinKofler",
 			"icon": "assets/icon.png",
 			"license": "MPL-2.0",
+			"config": {
+				"namePretty": "Icons"
+			},
 			"repository": {
 				"type": "git",
 				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
@@ -357,21 +151,52 @@
 				"Extension Packs"
 			],
 			"extensionPack": [
-				"EdwinKofler.vscode-hyperupcall-pack-core",
-				"EdwinKofler.vscode-hyperupcall-pack-cpp",
-				"EdwinKofler.vscode-hyperupcall-pack-devops",
-				"EdwinKofler.vscode-hyperupcall-pack-go",
-				"EdwinKofler.vscode-hyperupcall-pack-java",
-				"EdwinKofler.vscode-hyperupcall-pack-latex",
-				"EdwinKofler.vscode-hyperupcall-pack-markdown",
-				"EdwinKofler.vscode-hyperupcall-pack-other",
-				"EdwinKofler.vscode-hyperupcall-pack-php",
-				"EdwinKofler.vscode-hyperupcall-pack-python",
-				"EdwinKofler.vscode-hyperupcall-pack-ruby",
-				"EdwinKofler.vscode-hyperupcall-pack-rust",
-				"EdwinKofler.vscode-hyperupcall-pack-web",
-				"EdwinKofler.vscode-hyperupcall-pack-unix",
-				"EdwinKofler.vscode-hyperupcall-pack-windows"
+				"file-icons.file-icons",
+				"Catppuccin.catppuccin-vsc-icons",
+				"tal7aouy.icons",
+				"BeardedBear.beardedicons",
+				"miguelsolorio.symbols"
+			]
+		}
+	},
+	{
+		"dirname": "pack-decoration-product-icons",
+		"packageJson": {
+			"name": "vscode-hyperupcall-pack-product-icons",
+			"displayName": "Edwin's Pack: Product Icon",
+			"description": "Extensions that add a product icon theme",
+			"version": "0.3.6",
+			"publisher": "EdwinKofler",
+			"icon": "assets/icon.png",
+			"license": "MPL-2.0",
+			"config": {
+				"namePretty": "Product Icons"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
+			},
+			"bugs": {
+				"url": "https://github.com/fox-land/vscode-hyperupcall-packs/issues"
+			},
+			"author": {
+				"name": "Edwin Kofler",
+				"url": "https://edwinkofler.com"
+			},
+			"engines": {
+				"vscode": "^1.58.0"
+			},
+			"files": [
+				"LICENSE",
+				"assets/icon.png"
+			],
+			"categories": [
+				"Extension Packs"
+			],
+			"extensionPack": [
+				"antfu.icons-carbon",
+				"miguelsolorio.fluent-icons",
+				"melishev.feather-vscode"
 			]
 		}
 	},
@@ -385,6 +210,9 @@
 			"publisher": "EdwinKofler",
 			"icon": "assets/icon.png",
 			"license": "MPL-2.0",
+			"config": {
+				"namePretty": "Syntax"
+			},
 			"repository": {
 				"type": "git",
 				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
@@ -428,15 +256,18 @@
 		}
 	},
 	{
-		"dirname": "pack-ecosystem-python",
+		"dirname": "pack-decoration-themes",
 		"packageJson": {
-			"name": "vscode-hyperupcall-pack-python",
-			"displayName": "Edwin's Pack: Python",
-			"description": "Extensions for Python",
-			"version": "0.3.7",
+			"name": "vscode-hyperupcall-pack-themes",
+			"displayName": "Edwin's Pack: Themes",
+			"description": "Extensions that add a color theme",
+			"version": "0.8.1",
 			"publisher": "EdwinKofler",
 			"icon": "assets/icon.png",
 			"license": "MPL-2.0",
+			"config": {
+				"namePretty": "Themes"
+			},
 			"repository": {
 				"type": "git",
 				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
@@ -459,25 +290,46 @@
 				"Extension Packs"
 			],
 			"extensionPack": [
-				"ms-python.python",
-				"ms-python.vscode-pylance",
-				"njpwerner.autodocstring",
-				"donjayamanne.python-environment-manager",
-				"tushortz.python-extended-snippets",
-				"LittleFoxTeam.vscode-python-test-adapter"
+				"teabyii.ayu",
+				"BeardedBear.beardedtheme",
+				"jdinhlife.gruvbox",
+				"liviuschera.noctis",
+				"ms-vscode.Theme-MaterialKit",
+				"ms-vscode.Theme-TomorrowKit",
+				"ms-vscode.cpptools-themes",
+				"dracula-theme.theme-dracula",
+				"Catppuccin.catppuccin-vsc",
+				"zhuangtongfa.material-theme",
+				"whizkydee.material-palenight-theme",
+				"idleberg.hopscotch",
+				"sdras.night-owl",
+				"enkia.tokyo-night",
+				"azemoh.one-monokai",
+				"ahmadawais.shades-of-purple",
+				"RobbOwen.synthwave-vscode",
+				"johnpapa.winteriscoming",
+				"uloco.theme-bluloco-light",
+				"uloco.theme-bluloco-dark",
+				"ms-vscode.Theme-1337",
+				"GitHub.github-vscode-theme",
+				"arcticicestudio.nord-visual-studio-code",
+				"tinkertrain.theme-panda"
 			]
 		}
 	},
 	{
-		"dirname": "pack-ecosystem-java",
+		"dirname": "pack-ecosystem-all",
 		"packageJson": {
-			"name": "vscode-hyperupcall-pack-java",
-			"displayName": "Edwin's Pack: Java",
-			"description": "Extensions for Java",
-			"version": "0.4.1",
+			"name": "vscode-hyperupcall-pack-all",
+			"displayName": "Edwin's Pack: All",
+			"description": "Extensions for All",
+			"version": "0.1.3",
 			"publisher": "EdwinKofler",
 			"icon": "assets/icon.png",
 			"license": "MPL-2.0",
+			"config": {
+				"namePretty": "All"
+			},
 			"repository": {
 				"type": "git",
 				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
@@ -500,233 +352,21 @@
 				"Extension Packs"
 			],
 			"extensionPack": [
-				"redhat.java",
-				"vscjava.vscode-java-debug",
-				"vscjava.vscode-java-test",
-				"vscjava.vscode-java-dependency",
-				"vscjava.vscode-maven",
-				"vscjava.vscode-gradle",
-				"fwcd.kotlin"
-			]
-		}
-	},
-	{
-		"dirname": "pack-ecosystem-web",
-		"packageJson": {
-			"name": "vscode-hyperupcall-pack-web",
-			"displayName": "Edwin's Pack: Web",
-			"description": "Extensions for the web platform",
-			"version": "0.6.1",
-			"publisher": "EdwinKofler",
-			"icon": "assets/icon.png",
-			"license": "MPL-2.0",
-			"repository": {
-				"type": "git",
-				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
-			},
-			"bugs": {
-				"url": "https://github.com/fox-land/vscode-hyperupcall-packs/issues"
-			},
-			"author": {
-				"name": "Edwin Kofler",
-				"url": "https://edwinkofler.com"
-			},
-			"engines": {
-				"vscode": "^1.58.0"
-			},
-			"files": [
-				"LICENSE",
-				"assets/icon.png"
-			],
-			"categories": [
-				"Extension Packs"
-			],
-			"extensionPack": [
-				"esbenp.prettier-vscode",
-				"dbaeumer.vscode-eslint",
-				"stylelint.vscode-stylelint",
-				"Vue.volar",
-				"vitest.explorer",
-				"svelte.svelte-vscode",
-				"denoland.vscode-deno",
-				"yoavbls.pretty-ts-errors",
-				"Orta.vscode-twoslash-queries",
-				"ms-playwright.playwright",
-				"bradlc.vscode-tailwindcss",
-				"christian-kohler.npm-intellisense",
-				"deque-systems.vscode-axe-linter",
-				"firefox-devtools.vscode-firefox-debug",
-				"ms-edgedevtools.vscode-edge-devtools",
-				"xabikos.JavaScriptSnippets"
-			]
-		}
-	},
-	{
-		"dirname": "pack-ecosystem-ruby",
-		"packageJson": {
-			"name": "vscode-hyperupcall-pack-ruby",
-			"displayName": "Edwin's Pack: Ruby",
-			"description": "Extensions for Ruby",
-			"version": "0.5.1",
-			"publisher": "EdwinKofler",
-			"icon": "assets/icon.png",
-			"license": "MPL-2.0",
-			"repository": {
-				"type": "git",
-				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
-			},
-			"bugs": {
-				"url": "https://github.com/fox-land/vscode-hyperupcall-packs/issues"
-			},
-			"author": {
-				"name": "Edwin Kofler",
-				"url": "https://edwinkofler.com"
-			},
-			"engines": {
-				"vscode": "^1.58.0"
-			},
-			"files": [
-				"LICENSE",
-				"assets/icon.png"
-			],
-			"categories": [
-				"Extension Packs"
-			],
-			"extensionPack": [
-				"Shopify.ruby-lsp",
-				"KoichiSasada.vscode-rdbg",
-				"sorbet.sorbet-vscode-extension"
-			]
-		}
-	},
-	{
-		"dirname": "pack-ecosystem-go",
-		"packageJson": {
-			"name": "vscode-hyperupcall-pack-go",
-			"displayName": "Edwin's Pack: Go",
-			"description": "Extensions for Go",
-			"version": "0.4.1",
-			"publisher": "EdwinKofler",
-			"icon": "assets/icon.png",
-			"license": "MPL-2.0",
-			"repository": {
-				"type": "git",
-				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
-			},
-			"bugs": {
-				"url": "https://github.com/fox-land/vscode-hyperupcall-packs/issues"
-			},
-			"author": {
-				"name": "Edwin Kofler",
-				"url": "https://edwinkofler.com"
-			},
-			"engines": {
-				"vscode": "^1.58.0"
-			},
-			"files": [
-				"LICENSE",
-				"assets/icon.png"
-			],
-			"categories": [
-				"Extension Packs"
-			],
-			"extensionPack": [
-				"golang.go",
-				"premparihar.gotestexplorer",
-				"jeff-hykin.better-go-syntax"
-			]
-		}
-	},
-	{
-		"dirname": "pack-ecosystem-other",
-		"packageJson": {
-			"name": "vscode-hyperupcall-pack-other",
-			"displayName": "Edwin's Pack: Other",
-			"description": "Extensions for random things",
-			"version": "0.5.1",
-			"publisher": "EdwinKofler",
-			"icon": "assets/icon.png",
-			"license": "MPL-2.0",
-			"repository": {
-				"type": "git",
-				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
-			},
-			"bugs": {
-				"url": "https://github.com/fox-land/vscode-hyperupcall-packs/issues"
-			},
-			"author": {
-				"name": "Edwin Kofler",
-				"url": "https://edwinkofler.com"
-			},
-			"engines": {
-				"vscode": "^1.58.0"
-			},
-			"files": [
-				"LICENSE",
-				"assets/icon.png"
-			],
-			"categories": [
-				"Extension Packs"
-			],
-			"extensionPack": [
-				"sumneko.lua",
-				"kosz78.nim",
-				"idleberg.nsis",
-				"aesl.odin",
-				"vlanguage.vscode-vlang",
-				"mshr-h.VerilogHDL",
-				"XadillaX.viml",
-				"davidnussio.vscode-jq-playground",
-				"dandric.vscode-jq",
-				"ocamllabs.ocaml-platform",
-				"julialang.language-julia",
-				"mike-lischke.vscode-antlr4",
-				"remcohaszing.schemastore",
-				"earthly.earthfile-syntax-highlighting",
-				"crystal-lang-tools.crystal-lang",
-				"asciidoctor.asciidoctor-vscode",
-				"dhall.dhall-lang",
-				"dhall.vscode-dhall-lsp-server",
-				"lextudio.restructuredtext",
-				"trond-snekvik.simple-rst",
-				"tomoki1207.pdf"
-			]
-		}
-	},
-	{
-		"dirname": "pack-platform-windows",
-		"packageJson": {
-			"name": "vscode-hyperupcall-pack-windows",
-			"displayName": "Edwin's Pack: Windows",
-			"description": "Extensions for Windows",
-			"version": "0.3.6",
-			"publisher": "EdwinKofler",
-			"icon": "assets/icon.png",
-			"license": "MPL-2.0",
-			"repository": {
-				"type": "git",
-				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
-			},
-			"bugs": {
-				"url": "https://github.com/fox-land/vscode-hyperupcall-packs/issues"
-			},
-			"author": {
-				"name": "Edwin Kofler",
-				"url": "https://edwinkofler.com"
-			},
-			"engines": {
-				"vscode": "^1.58.0"
-			},
-			"files": [
-				"LICENSE",
-				"assets/icon.png"
-			],
-			"categories": [
-				"Extension Packs"
-			],
-			"extensionPack": [
-				"ms-vscode-remote.remote-wsl",
-				"ms-vscode.powershell"
+				"EdwinKofler.vscode-hyperupcall-pack-core",
+				"EdwinKofler.vscode-hyperupcall-pack-cpp",
+				"EdwinKofler.vscode-hyperupcall-pack-devops",
+				"EdwinKofler.vscode-hyperupcall-pack-go",
+				"EdwinKofler.vscode-hyperupcall-pack-java",
+				"EdwinKofler.vscode-hyperupcall-pack-latex",
+				"EdwinKofler.vscode-hyperupcall-pack-markdown",
+				"EdwinKofler.vscode-hyperupcall-pack-other",
+				"EdwinKofler.vscode-hyperupcall-pack-php",
+				"EdwinKofler.vscode-hyperupcall-pack-python",
+				"EdwinKofler.vscode-hyperupcall-pack-ruby",
+				"EdwinKofler.vscode-hyperupcall-pack-rust",
+				"EdwinKofler.vscode-hyperupcall-pack-web",
+				"EdwinKofler.vscode-hyperupcall-pack-unix",
+				"EdwinKofler.vscode-hyperupcall-pack-windows"
 			]
 		}
 	},
@@ -740,6 +380,9 @@
 			"publisher": "EdwinKofler",
 			"icon": "assets/icon.png",
 			"license": "MPL-2.0",
+			"config": {
+				"namePretty": "C++"
+			},
 			"repository": {
 				"type": "git",
 				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
@@ -788,6 +431,9 @@
 			"publisher": "EdwinKofler",
 			"icon": "assets/icon.png",
 			"license": "MPL-2.0",
+			"config": {
+				"namePretty": "DevOps"
+			},
 			"repository": {
 				"type": "git",
 				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
@@ -820,6 +466,132 @@
 		}
 	},
 	{
+		"dirname": "pack-ecosystem-go",
+		"packageJson": {
+			"name": "vscode-hyperupcall-pack-go",
+			"displayName": "Edwin's Pack: Go",
+			"description": "Extensions for Go",
+			"version": "0.4.1",
+			"publisher": "EdwinKofler",
+			"icon": "assets/icon.png",
+			"license": "MPL-2.0",
+			"config": {
+				"namePretty": "Go"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
+			},
+			"bugs": {
+				"url": "https://github.com/fox-land/vscode-hyperupcall-packs/issues"
+			},
+			"author": {
+				"name": "Edwin Kofler",
+				"url": "https://edwinkofler.com"
+			},
+			"engines": {
+				"vscode": "^1.58.0"
+			},
+			"files": [
+				"LICENSE",
+				"assets/icon.png"
+			],
+			"categories": [
+				"Extension Packs"
+			],
+			"extensionPack": [
+				"golang.go",
+				"premparihar.gotestexplorer",
+				"jeff-hykin.better-go-syntax"
+			]
+		}
+	},
+	{
+		"dirname": "pack-ecosystem-java",
+		"packageJson": {
+			"name": "vscode-hyperupcall-pack-java",
+			"displayName": "Edwin's Pack: Java",
+			"description": "Extensions for Java",
+			"version": "0.4.1",
+			"publisher": "EdwinKofler",
+			"icon": "assets/icon.png",
+			"license": "MPL-2.0",
+			"config": {
+				"namePretty": "Java"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
+			},
+			"bugs": {
+				"url": "https://github.com/fox-land/vscode-hyperupcall-packs/issues"
+			},
+			"author": {
+				"name": "Edwin Kofler",
+				"url": "https://edwinkofler.com"
+			},
+			"engines": {
+				"vscode": "^1.58.0"
+			},
+			"files": [
+				"LICENSE",
+				"assets/icon.png"
+			],
+			"categories": [
+				"Extension Packs"
+			],
+			"extensionPack": [
+				"redhat.java",
+				"vscjava.vscode-java-debug",
+				"vscjava.vscode-java-test",
+				"vscjava.vscode-java-dependency",
+				"vscjava.vscode-maven",
+				"vscjava.vscode-gradle",
+				"fwcd.kotlin"
+			]
+		}
+	},
+	{
+		"dirname": "pack-ecosystem-latex",
+		"packageJson": {
+			"name": "vscode-hyperupcall-pack-latex",
+			"displayName": "Edwin's Pack: LaTeX",
+			"description": "Extensions for LaTeX",
+			"version": "0.1.6",
+			"publisher": "EdwinKofler",
+			"icon": "assets/icon.png",
+			"license": "MPL-2.0",
+			"config": {
+				"namePretty": "LaTeX"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
+			},
+			"bugs": {
+				"url": "https://github.com/fox-land/vscode-hyperupcall-packs/issues"
+			},
+			"author": {
+				"name": "Edwin Kofler",
+				"url": "https://edwinkofler.com"
+			},
+			"engines": {
+				"vscode": "^1.58.0"
+			},
+			"files": [
+				"LICENSE",
+				"assets/icon.png"
+			],
+			"categories": [
+				"Extension Packs"
+			],
+			"extensionPack": [
+				"tecosaur.latex-utilities",
+				"James-Yu.latex-workshop"
+			]
+		}
+	},
+	{
 		"dirname": "pack-ecosystem-markdown",
 		"packageJson": {
 			"name": "vscode-hyperupcall-pack-markdown",
@@ -829,6 +601,9 @@
 			"publisher": "EdwinKofler",
 			"icon": "assets/icon.png",
 			"license": "MPL-2.0",
+			"config": {
+				"namePretty": "Markdown"
+			},
 			"repository": {
 				"type": "git",
 				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
@@ -866,15 +641,18 @@
 		}
 	},
 	{
-		"dirname": "pack-decoration-product-icons",
+		"dirname": "pack-ecosystem-other",
 		"packageJson": {
-			"name": "vscode-hyperupcall-pack-product-icons",
-			"displayName": "Edwin's Pack: Product Icon",
-			"description": "Extensions that add a product icon theme",
-			"version": "0.3.6",
+			"name": "vscode-hyperupcall-pack-other",
+			"displayName": "Edwin's Pack: Other",
+			"description": "Extensions for random things",
+			"version": "0.5.1",
 			"publisher": "EdwinKofler",
 			"icon": "assets/icon.png",
 			"license": "MPL-2.0",
+			"config": {
+				"namePretty": "Other"
+			},
 			"repository": {
 				"type": "git",
 				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
@@ -897,9 +675,152 @@
 				"Extension Packs"
 			],
 			"extensionPack": [
-				"antfu.icons-carbon",
-				"miguelsolorio.fluent-icons",
-				"melishev.feather-vscode"
+				"sumneko.lua",
+				"kosz78.nim",
+				"idleberg.nsis",
+				"aesl.odin",
+				"vlanguage.vscode-vlang",
+				"mshr-h.VerilogHDL",
+				"XadillaX.viml",
+				"davidnussio.vscode-jq-playground",
+				"dandric.vscode-jq",
+				"ocamllabs.ocaml-platform",
+				"julialang.language-julia",
+				"mike-lischke.vscode-antlr4",
+				"remcohaszing.schemastore",
+				"earthly.earthfile-syntax-highlighting",
+				"crystal-lang-tools.crystal-lang",
+				"asciidoctor.asciidoctor-vscode",
+				"dhall.dhall-lang",
+				"dhall.vscode-dhall-lsp-server",
+				"lextudio.restructuredtext",
+				"trond-snekvik.simple-rst",
+				"tomoki1207.pdf"
+			]
+		}
+	},
+	{
+		"dirname": "pack-ecosystem-php",
+		"packageJson": {
+			"name": "vscode-hyperupcall-pack-php",
+			"displayName": "Edwin's Pack: PHP",
+			"description": "Extensions for PHP",
+			"version": "0.3.6",
+			"publisher": "EdwinKofler",
+			"icon": "assets/icon.png",
+			"license": "MPL-2.0",
+			"config": {
+				"namePretty": "PHP"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
+			},
+			"bugs": {
+				"url": "https://github.com/fox-land/vscode-hyperupcall-packs/issues"
+			},
+			"author": {
+				"name": "Edwin Kofler",
+				"url": "https://edwinkofler.com"
+			},
+			"engines": {
+				"vscode": "^1.58.0"
+			},
+			"files": [
+				"LICENSE",
+				"assets/icon.png"
+			],
+			"categories": [
+				"Extension Packs"
+			],
+			"extensionPack": [
+				"DEVSENSE.phptools-vscode",
+				"DEVSENSE.profiler-php-vscode"
+			]
+		}
+	},
+	{
+		"dirname": "pack-ecosystem-python",
+		"packageJson": {
+			"name": "vscode-hyperupcall-pack-python",
+			"displayName": "Edwin's Pack: Python",
+			"description": "Extensions for Python",
+			"version": "0.3.7",
+			"publisher": "EdwinKofler",
+			"icon": "assets/icon.png",
+			"license": "MPL-2.0",
+			"config": {
+				"namePretty": "Python"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
+			},
+			"bugs": {
+				"url": "https://github.com/fox-land/vscode-hyperupcall-packs/issues"
+			},
+			"author": {
+				"name": "Edwin Kofler",
+				"url": "https://edwinkofler.com"
+			},
+			"engines": {
+				"vscode": "^1.58.0"
+			},
+			"files": [
+				"LICENSE",
+				"assets/icon.png"
+			],
+			"categories": [
+				"Extension Packs"
+			],
+			"extensionPack": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"njpwerner.autodocstring",
+				"donjayamanne.python-environment-manager",
+				"tushortz.python-extended-snippets",
+				"LittleFoxTeam.vscode-python-test-adapter"
+			]
+		}
+	},
+	{
+		"dirname": "pack-ecosystem-ruby",
+		"packageJson": {
+			"name": "vscode-hyperupcall-pack-ruby",
+			"displayName": "Edwin's Pack: Ruby",
+			"description": "Extensions for Ruby",
+			"version": "0.5.1",
+			"publisher": "EdwinKofler",
+			"icon": "assets/icon.png",
+			"license": "MPL-2.0",
+			"config": {
+				"namePretty": "Ruby"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
+			},
+			"bugs": {
+				"url": "https://github.com/fox-land/vscode-hyperupcall-packs/issues"
+			},
+			"author": {
+				"name": "Edwin Kofler",
+				"url": "https://edwinkofler.com"
+			},
+			"engines": {
+				"vscode": "^1.58.0"
+			},
+			"files": [
+				"LICENSE",
+				"assets/icon.png"
+			],
+			"categories": [
+				"Extension Packs"
+			],
+			"extensionPack": [
+				"Shopify.ruby-lsp",
+				"KoichiSasada.vscode-rdbg",
+				"sorbet.sorbet-vscode-extension"
 			]
 		}
 	},
@@ -913,6 +834,9 @@
 			"publisher": "EdwinKofler",
 			"icon": "assets/icon.png",
 			"license": "MPL-2.0",
+			"config": {
+				"namePretty": "Rust"
+			},
 			"repository": {
 				"type": "git",
 				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
@@ -938,6 +862,145 @@
 				"rust-lang.rust-analyzer",
 				"serayuzgur.crates",
 				"swellaby.vscode-rust-test-adapter"
+			]
+		}
+	},
+	{
+		"dirname": "pack-ecosystem-web",
+		"packageJson": {
+			"name": "vscode-hyperupcall-pack-web",
+			"displayName": "Edwin's Pack: Web",
+			"description": "Extensions for the web platform",
+			"version": "0.6.1",
+			"publisher": "EdwinKofler",
+			"icon": "assets/icon.png",
+			"license": "MPL-2.0",
+			"config": {
+				"namePretty": "Web"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
+			},
+			"bugs": {
+				"url": "https://github.com/fox-land/vscode-hyperupcall-packs/issues"
+			},
+			"author": {
+				"name": "Edwin Kofler",
+				"url": "https://edwinkofler.com"
+			},
+			"engines": {
+				"vscode": "^1.58.0"
+			},
+			"files": [
+				"LICENSE",
+				"assets/icon.png"
+			],
+			"categories": [
+				"Extension Packs"
+			],
+			"extensionPack": [
+				"esbenp.prettier-vscode",
+				"dbaeumer.vscode-eslint",
+				"stylelint.vscode-stylelint",
+				"Vue.volar",
+				"vitest.explorer",
+				"svelte.svelte-vscode",
+				"denoland.vscode-deno",
+				"yoavbls.pretty-ts-errors",
+				"Orta.vscode-twoslash-queries",
+				"ms-playwright.playwright",
+				"bradlc.vscode-tailwindcss",
+				"christian-kohler.npm-intellisense",
+				"deque-systems.vscode-axe-linter",
+				"firefox-devtools.vscode-firefox-debug",
+				"ms-edgedevtools.vscode-edge-devtools",
+				"xabikos.JavaScriptSnippets"
+			]
+		}
+	},
+	{
+		"dirname": "pack-platform-unix",
+		"packageJson": {
+			"name": "vscode-hyperupcall-pack-unix",
+			"displayName": "Edwin's Pack: *nix",
+			"description": "Extensions for *nix",
+			"version": "0.4.5",
+			"publisher": "EdwinKofler",
+			"icon": "assets/icon.png",
+			"license": "MPL-2.0",
+			"config": {
+				"namePretty": "*nix"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
+			},
+			"bugs": {
+				"url": "https://github.com/fox-land/vscode-hyperupcall-packs/issues"
+			},
+			"author": {
+				"name": "Edwin Kofler",
+				"url": "https://edwinkofler.com"
+			},
+			"engines": {
+				"vscode": "^1.58.0"
+			},
+			"files": [
+				"LICENSE",
+				"assets/icon.png"
+			],
+			"categories": [
+				"Extension Packs"
+			],
+			"extensionPack": [
+				"ms-vscode.makefile-tools",
+				"timonwong.shellcheck",
+				"mads-hartmann.bash-ide-vscode",
+				"jeff-hykin.better-shellscript-syntax",
+				"bmalehorn.vscode-fish",
+				"elves.elvish",
+				"TheNuProjectContributors.vscode-nushell-lang"
+			]
+		}
+	},
+	{
+		"dirname": "pack-platform-windows",
+		"packageJson": {
+			"name": "vscode-hyperupcall-pack-windows",
+			"displayName": "Edwin's Pack: Windows",
+			"description": "Extensions for Windows",
+			"version": "0.3.6",
+			"publisher": "EdwinKofler",
+			"icon": "assets/icon.png",
+			"license": "MPL-2.0",
+			"config": {
+				"namePretty": "Windows"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
+			},
+			"bugs": {
+				"url": "https://github.com/fox-land/vscode-hyperupcall-packs/issues"
+			},
+			"author": {
+				"name": "Edwin Kofler",
+				"url": "https://edwinkofler.com"
+			},
+			"engines": {
+				"vscode": "^1.58.0"
+			},
+			"files": [
+				"LICENSE",
+				"assets/icon.png"
+			],
+			"categories": [
+				"Extension Packs"
+			],
+			"extensionPack": [
+				"ms-vscode-remote.remote-wsl",
+				"ms-vscode.powershell"
 			]
 		}
 	}
