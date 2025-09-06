@@ -78,7 +78,7 @@
 			"name": "vscode-hyperupcall-pack-core",
 			"displayName": "Edwin's Pack: Core",
 			"description": "CORE EXTENSIONS for ANY VSCode experience",
-			"version": "0.5.1",
+			"version": "0.5.2",
 			"publisher": "EdwinKofler",
 			"icon": "assets/icon.png",
 			"license": "MPL-2.0",
