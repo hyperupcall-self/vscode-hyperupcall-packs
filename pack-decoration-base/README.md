@@ -34,7 +34,6 @@ Includes:
 
 **Nice to have**
 
-- [Discord Rich Presence](https://marketplace.visualstudio.com/items?itemName=LeonardSSH.vscord)
 - [Color Info](https://marketplace.visualstudio.com/items?itemName=bierner.color-info)
 - [Docs View](https://marketplace.visualstudio.com/items?itemName=bierner.docs-view)
 - [Comment Divider](https://marketplace.visualstudio.com/items?itemName=stackbreak.comment-divider)
