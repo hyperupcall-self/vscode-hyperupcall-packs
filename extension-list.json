@@ -776,6 +776,7 @@
 			"extensionPack": [
 				"ms-python.python",
 				"ms-python.vscode-pylance",
+				"charliermarsh.ruff",
 				"njpwerner.autodocstring",
 				"donjayamanne.python-environment-manager",
 				"tushortz.python-extended-snippets",
