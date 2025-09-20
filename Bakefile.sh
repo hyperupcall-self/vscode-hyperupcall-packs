@@ -55,9 +55,9 @@ task.publish() {
 	fi
 
 	local latest_version_commit
-	latest_version_commit=$(git log --pretty=format:"%H" --grep '^pack-.*-.* v[0-9]\+\.[0-9]\+\.[0-9]\+' -- "$pack_dir" | head -1)
-	bake.info "Newest commits for \"$pack_dir\""
-	git -P log --oneline c0f7f0c4db61de6f4e3e1e1793a5f705e129d16a~..HEAD -- "$pack_dir"
+	latest_version_commit=$(git --no-pager log --pretty=format:"%H" --grep '^pack-.*-.* v[0-9]\+\.[0-9]\+\.[0-9]\+' -- "$pack_dir" | head -1) || : 
+	bake.info "Newest commits for \"$pack_dir\":"
+	git --no-pager log --oneline "$latest_version_commit"~..HEAD -- "$pack_dir"
 	read -rp 'New Version? ' -ei 'v'
 	local version=$REPLY
 	if [[ -z "$version" || $version = 'v' ]]; then
