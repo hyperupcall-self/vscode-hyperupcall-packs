@@ -3,3 +3,5 @@ pre-commit:
   commands:
     create-extensions-list:
       run: './scripts/create-extensions-list.ts'
+      files: 'echo ./extension-list.json'
+      stage_fixed: true
