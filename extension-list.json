@@ -205,7 +205,7 @@
 			"name": "vscode-hyperupcall-pack-syntax",
 			"displayName": "Edwin's Pack: Syntax",
 			"description": "Extensions that add syntax highlighting",
-			"version": "0.7.1",
+			"version": "0.8.0",
 			"publisher": "EdwinKofler",
 			"icon": "assets/icon.png",
 			"license": "MPL-2.0",
