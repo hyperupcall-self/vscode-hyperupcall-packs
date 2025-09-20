@@ -9,3 +9,4 @@ Includes:
 - [Fish](https://marketplace.visualstudio.com/items?itemName=bmalehorn.vscode-fish)
 - [Elvish](https://marketplace.visualstudio.com/items?itemName=elves.elvish)
 - [vscode-nushell-lang](https://marketplace.visualstudio.com/items?itemName=TheNuProjectContributors.vscode-nushell-lang)
+- [jeff-hykin.better-perl-syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-perl-syntax)

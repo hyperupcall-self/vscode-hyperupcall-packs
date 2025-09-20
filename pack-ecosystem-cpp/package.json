@@ -43,6 +43,7 @@
 		"llvm-vs-code-extensions.vscode-mlir",
 		"cschlosser.doxdocgen",
 		"jeff-hykin.better-c-syntax",
-		"jeff-hykin.better-cpp-syntax"
+		"jeff-hykin.better-cpp-syntax",
+		"geforcelegend.vscode-glsl"
 	]
 }

@@ -234,22 +234,11 @@
 				"Extension Packs"
 			],
 			"extensionPack": [
-				"jeff-hykin.better-c-syntax",
-				"jeff-hykin.better-cpp-syntax",
-				"jeff-hykin.better-objc-syntax",
-				"jeff-hykin.better-objcpp-syntax",
 				"jeff-hykin.better-dockerfile-syntax",
-				"jeff-hykin.better-perl-syntax",
 				"jeff-hykin.better-jsonc-syntax",
-				"jeff-hykin.better-lisp-syntax",
-				"jeff-hykin.better-prolog-syntax",
-				"jeff-hykin.better-go-syntax",
 				"jeff-hykin.better-csv-syntax",
 				"jeff-hykin.better-shellscript-syntax",
 				"dtsvet.vscode-wasm",
-				"idleberg.applescript",
-				"syler.sass-indented",
-				"geforcelegend.vscode-glsl",
 				"EdwinKofler.vscode-assorted-languages"
 			]
 		}
@@ -416,7 +405,8 @@
 				"llvm-vs-code-extensions.vscode-mlir",
 				"cschlosser.doxdocgen",
 				"jeff-hykin.better-c-syntax",
-				"jeff-hykin.better-cpp-syntax"
+				"jeff-hykin.better-cpp-syntax",
+				"geforcelegend.vscode-glsl"
 			]
 		}
 	},
@@ -960,7 +950,8 @@
 				"jeff-hykin.better-shellscript-syntax",
 				"bmalehorn.vscode-fish",
 				"elves.elvish",
-				"TheNuProjectContributors.vscode-nushell-lang"
+				"TheNuProjectContributors.vscode-nushell-lang",
+				"jeff-hykin.better-perl-syntax"
 			]
 		}
 	},

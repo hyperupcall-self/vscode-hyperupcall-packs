@@ -37,6 +37,7 @@
 		"jeff-hykin.better-shellscript-syntax",
 		"bmalehorn.vscode-fish",
 		"elves.elvish",
-		"TheNuProjectContributors.vscode-nushell-lang"
+		"TheNuProjectContributors.vscode-nushell-lang",
+		"jeff-hykin.better-perl-syntax"
 	]
 }

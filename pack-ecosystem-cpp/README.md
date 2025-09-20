@@ -15,3 +15,4 @@ Includes:
 - [Doxygen Documentation Generator](https://marketplace.visualstudio.com/items?itemName=cschlosser.doxdocgen)
 - [Better C Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-c-syntax)
 - [Better C++ Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax)
+- [GLSL Syntax for VS Code](https://marketplace.visualstudio.com/items?itemName=geforcelegend.vscode-glsl)
