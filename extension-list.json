@@ -401,6 +401,7 @@
 				"matepek.vscode-catch2-test-adapter",
 				"amiralizadeh9480.cpp-helper",
 				"llvm-vs-code-extensions.vscode-clangd",
+				"vadimcn.vscode-lldb",
 				"revng.llvm-ir",
 				"llvm-vs-code-extensions.vscode-mlir",
 				"cschlosser.doxdocgen",
