@@ -59,13 +59,10 @@
 				"bierner.docs-view",
 				"stackbreak.comment-divider",
 				"aaron-bond.better-comments",
-				"jeff-hykin.macro-commander",
 				"EdwinKofler.vscode-hyperupcall",
 				"redhat.vscode-yaml",
 				"redhat.vscode-xml",
-				"DotJoshJohnson.xml",
 				"tamasfe.even-better-toml",
-				"SimonSiefke.svg-preview",
 				"EdwinKofler.vscode-assorted-languages",
 				"EdwinKofler.vscode-hyperupcall-pack-markdown"
 			]
@@ -625,7 +622,6 @@
 				"bierner.markdown-emoji",
 				"bierner.markdown-checkbox",
 				"bierner.emojisense",
-				"bierner.markdown-yaml-preamble",
 				"bierner.markdown-footnotes"
 			]
 		}
