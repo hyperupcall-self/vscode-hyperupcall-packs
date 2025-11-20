@@ -38,15 +38,12 @@ Includes:
 - [Docs View](https://marketplace.visualstudio.com/items?itemName=bierner.docs-view)
 - [Comment Divider](https://marketplace.visualstudio.com/items?itemName=stackbreak.comment-divider)
 - [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
-- [macro-commander (Command Runner)](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.macro-commander)
 - [hyperupcall](https://marketplace.visualstudio.com/items?itemName=EdwinKofler.vscode-hyperupcall)
 
 **File Types**
 
 - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 - [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
-- [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
 - [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
-- [Svg Preview](https://marketplace.visualstudio.com/items?itemName=SimonSiefke.svg-preview)
 - [Assorted Languages](https://marketplace.visualstudio.com/items?itemName=EdwinKofler.vscode-assorted-languages)
 - [Edwin's Pack: Markdown](https://marketplace.visualstudio.com/items?itemName=EdwinKofler.vscode-hyperupcall-pack-markdown)
