@@ -1,4 +1,7 @@
-# vscode-hyperupcall-pack-java
+# Edwin's Pack: Java
+
+- See on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=EdwinKofler.vscode-hyperupcall-pack-java)
+- See on [Open VSX](https://open-vsx.org/extension/EdwinKofler/vscode-hyperupcall-pack-java)
 
 Includes:
 

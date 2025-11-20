@@ -1,4 +1,7 @@
-# vscode-hyperupcall-pack-base
+# Edwin's Pack: Base
+
+- See on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=EdwinKofler.vscode-hyperupcall-pack-base)
+- See on [Open VSX](https://open-vsx.org/extension/EdwinKofler/vscode-hyperupcall-pack-base)
 
 Includes:
 

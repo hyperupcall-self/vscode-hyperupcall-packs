@@ -1,4 +1,7 @@
-# vscode-hyperupcall-pack-python
+# Edwin's Pack: Python
+
+- See on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=EdwinKofler.vscode-hyperupcall-pack-python)
+- See on [Open VSX](https://open-vsx.org/extension/EdwinKofler/vscode-hyperupcall-pack-python)
 
 Includes:
 

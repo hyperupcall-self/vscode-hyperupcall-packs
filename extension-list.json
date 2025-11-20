@@ -116,7 +116,7 @@
 		"dirname": "pack-decoration-icons",
 		"packageJson": {
 			"name": "vscode-hyperupcall-pack-icons",
-			"displayName": "Edwin's Pack: Icon",
+			"displayName": "Edwin's Pack: Icons",
 			"description": "Extensions that add a file icon theme",
 			"version": "0.5.2",
 			"publisher": "EdwinKofler",
@@ -159,7 +159,7 @@
 		"dirname": "pack-decoration-product-icons",
 		"packageJson": {
 			"name": "vscode-hyperupcall-pack-product-icons",
-			"displayName": "Edwin's Pack: Product Icon",
+			"displayName": "Edwin's Pack: Product Icons",
 			"description": "Extensions that add a product icon theme",
 			"version": "0.3.7",
 			"publisher": "EdwinKofler",

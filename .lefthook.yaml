@@ -4,3 +4,5 @@ pre-commit:
     create-extensions-list:
       run: './scripts/create-extensions-list.ts && git add {files}'
       files: 'echo ./extension-list.json'
+    verify-metadata:
+      run: './scripts/verify-metadata.ts'

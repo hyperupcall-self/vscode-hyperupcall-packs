@@ -1,4 +1,7 @@
-# vscode-hyperupcall-pack-other
+# Edwin's Pack: Other
+
+- See on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=EdwinKofler.vscode-hyperupcall-pack-other)
+- See on [Open VSX](https://open-vsx.org/extension/EdwinKofler/vscode-hyperupcall-pack-other)
 
 Includes:
 

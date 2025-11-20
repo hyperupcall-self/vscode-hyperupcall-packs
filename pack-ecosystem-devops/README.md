@@ -1,4 +1,7 @@
-# vscode-hyperupcall-pack-devops
+# Edwin's Pack: DevOps
+
+- See on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=EdwinKofler.vscode-hyperupcall-pack-devops)
+- See on [Open VSX](https://open-vsx.org/extension/EdwinKofler/vscode-hyperupcall-pack-devops)
 
 Includes:
 

@@ -1,4 +1,7 @@
-# vscode-hyperupcall-pack-core
+# Edwin's Pack: Core
+
+- See on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=EdwinKofler.vscode-hyperupcall-pack-core)
+- See on [Open VSX](https://open-vsx.org/extension/EdwinKofler/vscode-hyperupcall-pack-core)
 
 Includes:
 

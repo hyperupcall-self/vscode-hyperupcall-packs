@@ -1,4 +1,7 @@
-# vscode-hyperupcall-pack-markdown
+# Edwin's Pack: Markdown
+
+- See on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=EdwinKofler.vscode-hyperupcall-pack-markdown)
+- See on [Open VSX](https://open-vsx.org/extension/EdwinKofler/vscode-hyperupcall-pack-markdown)
 
 Includes:
 

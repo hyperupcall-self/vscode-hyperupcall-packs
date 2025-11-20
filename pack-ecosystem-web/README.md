@@ -1,4 +1,7 @@
-# vscode-hyperupcall-pack-web
+# Edwin's Pack: Web
+
+- See on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=EdwinKofler.vscode-hyperupcall-pack-web)
+- See on [Open VSX](https://open-vsx.org/extension/EdwinKofler/vscode-hyperupcall-pack-web)
 
 Includes:
 

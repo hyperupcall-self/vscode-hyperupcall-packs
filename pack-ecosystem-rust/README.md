@@ -1,4 +1,7 @@
-# vscode-hyperupcall-pack-rust
+# Edwin's Pack: Rust
+
+- See on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=EdwinKofler.vscode-hyperupcall-pack-rust)
+- See on [Open VSX](https://open-vsx.org/extension/EdwinKofler/vscode-hyperupcall-pack-rust)
 
 Includes:
 

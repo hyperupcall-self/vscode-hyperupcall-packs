@@ -1,4 +1,7 @@
-# vscode-hyperupcall-pack-windows
+# Edwin's Pack: Windows
+
+- See on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=EdwinKofler.vscode-hyperupcall-pack-windows)
+- See on [Open VSX](https://open-vsx.org/extension/EdwinKofler/vscode-hyperupcall-pack-windows)
 
 Includes:
 
