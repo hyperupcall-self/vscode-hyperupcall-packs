@@ -458,7 +458,7 @@
 			"name": "vscode-hyperupcall-pack-go",
 			"displayName": "Edwin's Pack: Go",
 			"description": "Extensions for Go",
-			"version": "0.4.3",
+			"version": "0.4.4",
 			"publisher": "EdwinKofler",
 			"icon": "assets/icon.png",
 			"license": "MPL-2.0",
