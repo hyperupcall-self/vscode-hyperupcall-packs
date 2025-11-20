@@ -912,7 +912,7 @@
 			"name": "vscode-hyperupcall-pack-unix",
 			"displayName": "Edwin's Pack: *nix",
 			"description": "Extensions for *nix",
-			"version": "0.5.1",
+			"version": "0.5.2",
 			"publisher": "EdwinKofler",
 			"icon": "assets/icon.png",
 			"license": "MPL-2.0",
