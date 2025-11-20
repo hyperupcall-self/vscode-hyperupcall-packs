@@ -2,6 +2,5 @@ assert_lefthook_installed: true
 pre-commit:
   commands:
     create-extensions-list:
-      run: './scripts/create-extensions-list.ts'
+      run: './scripts/create-extensions-list.ts && git add {files}'
       files: 'echo ./extension-list.json'
-      stage_fixed: true
